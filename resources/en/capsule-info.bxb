@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (Repeat After Me)
+  developer-name (Van Boughner)
+  icon-asset (images/iterative.png)
+  description ("Ask Repeat After Me to say something, and Bixby will repeat that exact phrase.")
+  dispatch-name (Repeat After Me)
+  search-keywords {
+    keyword (repeat)
+  }
+}

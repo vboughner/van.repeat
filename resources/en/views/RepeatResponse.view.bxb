@@ -1,0 +1,18 @@
+result-view {
+  match: RepeatResponse (this) {
+  }
+
+  message {
+    template ("#{value(this)}")
+  }
+
+  render {
+    nothing
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Again")
+    }
+  }
+}

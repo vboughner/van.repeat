@@ -1,0 +1,5 @@
+train (t-16ad23rx0bvxv1x3s4c6u0hsx) {
+  utterance ("[g:RepeatResponse] (another great thing to say)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1568480004851)
+}

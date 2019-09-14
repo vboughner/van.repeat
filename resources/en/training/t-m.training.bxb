@@ -1,0 +1,5 @@
+train (t-mlo5he8j56owm9o4fjf1amddb) {
+  utterance ("[g:RepeatResponse] say (what a great day)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1568480004189)
+}

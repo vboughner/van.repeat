@@ -1,0 +1,3 @@
+text (RepeatInput) {
+  description (text that should be repeated)
+}

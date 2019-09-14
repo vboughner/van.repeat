@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (RepeatAction) {
+      accepted-inputs (repeatInput)
+      local-endpoint ("RepeatAction.js")
+    }
+  }
+}

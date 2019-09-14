@@ -1,0 +1,11 @@
+action (RepeatAction) {
+  type (Constructor)
+  description (Repeats what was said)
+  collect {
+    input (repeatInput) {
+      type (RepeatInput)
+      min (Required) max (One)
+    }
+  }
+  output (RepeatResponse)
+}
