@@ -3,7 +3,9 @@ result-view {
   }
 
   message {
-    template ("#{value(this)}")
+    template ("#{value(this.displayText)}") {
+      speech ("#{value(this.speechText)}")
+    }
   }
 
   render {

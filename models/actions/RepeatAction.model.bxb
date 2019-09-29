@@ -6,6 +6,10 @@ action (RepeatAction) {
       type (RepeatInput)
       min (Required) max (One)
     }
+    input (voiceStyle) {
+      type (VoiceStyle)
+      min (Optional) max (One)
+    }
   }
   output (RepeatResponse)
 }

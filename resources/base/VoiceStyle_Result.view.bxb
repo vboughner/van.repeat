@@ -1,0 +1,26 @@
+result-view {
+  match: VoiceStyle(this)
+
+  message {
+    template ("These voices are available. Choose one to hear it now. Later use the name when asking for a phrase to be repeated.")
+  }
+
+  render {
+    list-of (this) {
+      where-each (voiceStyle) {
+        cell-card {
+          slot2 {
+            content {
+              primary {
+                template ("#{value(voiceStyle.voice)}")
+              }
+              secondary {
+                template ("#{value(voiceStyle.language)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+structure (VoiceStyle) {
+  description (voice name and info)
+  property (voice) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+
+  property (locale) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+
+  property (profile) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (language) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

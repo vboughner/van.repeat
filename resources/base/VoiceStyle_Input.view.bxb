@@ -1,0 +1,24 @@
+input-view {
+  match: VoiceStyle(this)
+  message {
+    template ("Which voice would you like to hear?")
+  }
+  render {
+    selection-of (this) {
+      where-each (voiceStyle) {
+        cell-card {
+          slot2 {
+            content {
+              primary {
+                template ("#{value(voiceStyle.voice)} - #{value(voiceStyle.language)}")
+              }
+              secondary {
+                  template ("#{value(voiceStyle.locale)}, #{value(voiceStyle.profile)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
