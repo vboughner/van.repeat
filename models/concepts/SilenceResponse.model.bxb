@@ -1,0 +1,3 @@
+text (SilenceResponse) {
+  description (spoken silence)
+}

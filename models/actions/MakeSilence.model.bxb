@@ -1,0 +1,11 @@
+action (MakeSilence) {
+  type (Calculation)
+  description (provide a certain number of seconds of silence)
+  collect {
+    input (silenceLength) {
+      type (SilenceLength)
+      min (Required) max (One)
+    }
+  }
+  output (SilenceResponse)
+}

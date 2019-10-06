@@ -7,5 +7,9 @@ endpoints {
     action-endpoint (GetVoiceStyles) {
       local-endpoint (GetVoiceStyles.js)
     }
+    action-endpoint (MakeSilence) {
+      accepted-inputs (silenceLength)
+      local-endpoint ("MakeSilence.js")
+    }
   }
 }

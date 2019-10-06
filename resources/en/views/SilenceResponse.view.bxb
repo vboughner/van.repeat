@@ -1,0 +1,29 @@
+result-view {
+  match: SilenceResponse(this) {
+    from-output: MakeSilence(action) {
+      from-input: SilenceLength(silenceLength)
+    }
+  }
+
+  message {
+    template ("#{value(silenceLength)} seconds of silence") {
+      speech ("#{value(this)}")
+    }
+  }
+
+  render {
+    nothing
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("1 second of silence")
+    }
+    conversation-driver {
+      template ("5 seconds of silence")
+    }
+    conversation-driver {
+      template ("10 seconds of silence")
+    }
+  }
+}
