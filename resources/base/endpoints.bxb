@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (RepeatAction) {
-      accepted-inputs (repeatInput, voiceStyle)
+      accepted-inputs (repeatInput, voiceName)
       local-endpoint ("RepeatAction.js")
     }
     action-endpoint (GetVoiceStyles) {

@@ -1,0 +1,47 @@
+result-view {
+  match: VoiceStyle(this)
+
+  message {
+    template ("These are the voices available. Use one like this: \"With Repeat After Me, Lisa say: How are you today?\"")
+  }
+
+  render {
+    list-of (this) {
+      where-each (voiceStyle) {
+        cell-card {
+          slot2 {
+            content {
+              primary {
+                template ("#{value(voiceStyle.voice)}")
+              }
+              secondary {
+                template ("#{value(voiceStyle.language)}")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("Stephanie repeat me")
+    }
+    conversation-driver {
+      template ("John repeat me")
+    }
+    conversation-driver {
+      template ("Lisa repeat me")
+    }
+    conversation-driver {
+      template ("Julia repeat me")
+    }
+    conversation-driver {
+      template ("Amy repeat me")
+    }
+    conversation-driver {
+      template ("Chris repeat me")
+    }
+  }
+}

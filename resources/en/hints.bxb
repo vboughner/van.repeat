@@ -1,7 +1,10 @@
 hints {
   uncategorized {
     hint ( With Repeat After Me say I am your friend )
-    hint ( With Repeat After Me say what a great day )
-    hint ( With Repeat After Me say you look fabulous today )
+    hint ( Ask Repeat After Me to have John say what a great day )
+    hint ( Ask Repeat After Me to have Amy say you look fabulous )
+    hint ( Ask Repeat After Me to repeat everything I say )
+    hint ( Ask Repeat After Me for 5 seconds of silence )
+    hint ( Ask Repeat After Me to list the voices )
   }
 }

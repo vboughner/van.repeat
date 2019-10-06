@@ -1,0 +1,4 @@
+train (t-k8gohpvilei70i05of3my14cf) {
+  utterance ("[g:RepeatResponse] say (say something here)[v:RepeatInput]")
+  last-modified (1570377150395)
+}

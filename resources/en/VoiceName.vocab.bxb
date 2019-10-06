@@ -1,0 +1,8 @@
+vocab (VoiceName) {
+  "Stephanie" { "Stephanie" }
+  "John" { "John" }
+  "Lisa" { "Lisa" }
+  "Julia" { "Julia" }
+  "Amy" { "Amy" }
+  "Chris" { "Chris" }  
+}

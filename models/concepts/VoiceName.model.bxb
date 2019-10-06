@@ -1,0 +1,8 @@
+enum (VoiceName) {
+  symbol (Stephanie)
+  symbol (John)
+  symbol (Lisa)
+  symbol (Julia)
+  symbol (Amy)
+  symbol (Chris)
+}

@@ -1,0 +1,5 @@
+train (t-bdplux2cugqgeznkgyv0zl94x) {
+  utterance ("[g:RepeatResponse:continue] (Lisa)[v:VoiceName:Lisa] repeat that")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIAQwATFQDAA=)
+  last-modified (1570378341048)
+}

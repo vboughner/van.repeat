@@ -1,5 +1,9 @@
 result-view {
-  match: RepeatResponse (this) {
+  match: RepeatResponse(this) {
+    from-output: RepeatAction(action) {
+      from-input: VoiceName(voiceName)
+      from-input: RepeatInput(repeatInput)
+    }
   }
 
   message {
@@ -9,12 +13,43 @@ result-view {
   }
 
   render {
-    nothing
+    if (size(voiceName) > 0) {
+      layout {
+        section {
+          content {
+            single-line {
+              text {
+                style (Detail_M_Soft)
+                value ("voice: #{value(voiceName)}")
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   conversation-drivers {
     conversation-driver {
       template ("Again")
+    }
+    conversation-driver {
+      template ("Stephanie repeat that")
+    }
+    conversation-driver {
+      template ("John repeat that")
+    }
+    conversation-driver {
+      template ("Lisa repeat that")
+    }
+    conversation-driver {
+      template ("Julia repeat that")
+    }
+    conversation-driver {
+      template ("Amy repeat that")
+    }
+    conversation-driver {
+      template ("Chris repeat that")
     }
   }
 }

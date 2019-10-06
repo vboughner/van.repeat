@@ -1,17 +1,16 @@
-module.exports.function = function repeatAction (repeatInput, voiceStyle) {
-  const console = require("console")
-  const displayText = repeatInput
+module.exports.function = function repeatAction (repeatInput, voiceName) {
+  const util = require('lib/util.js')
+  const voiceStyle = util.getVoiceStyleForName(voiceName)
 
   let speechText
   if (voiceStyle) {
-    speechText = "<speak> <lang xml:lang=\"" + voiceStyle.locale + "\" voice=\"" + voiceStyle.profile + "\">" + repeatInput + " </lang></speak>"
+    speechText = "<speak><lang xml:lang=\"" + voiceStyle.locale + "\" voice=\"" + voiceStyle.profile + "\">" + repeatInput + "</lang></speak>"
   } else {
     speechText = repeatInput
   }
-  console.log('speechText is', speechText)
 
   return {
-    displayText: displayText,
+    displayText: repeatInput,
     speechText: speechText
   }
 }
