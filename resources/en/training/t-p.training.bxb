@@ -1,0 +1,5 @@
+train (t-pbvt3p6ro0ij4kn3xt57yw04t) {
+  utterance ("[g:RepeatResponse:continue] repeat that in (John's)[v:VoiceName:John] voice")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIAQwATFQDAA=)
+  last-modified (1570380215596)
+}

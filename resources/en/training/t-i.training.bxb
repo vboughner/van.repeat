@@ -1,3 +1,8 @@
+train (t-in7it0g8p0rc1m4oe6fy9z7q3) {
+  utterance ("[g:RepeatResponse] have (Chris)[v:VoiceName:Chris] say (what a great day)[v:RepeatInput]")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1570379617541)
+}
 train (t-inbzvz19axvzprhw09ez7esos) {
   utterance ("[g:RepeatResponse] say (I am your friend)[v:RepeatInput]")
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)

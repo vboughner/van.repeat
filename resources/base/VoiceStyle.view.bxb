@@ -2,7 +2,7 @@ result-view {
   match: VoiceStyle(this)
 
   message {
-    template ("These are the voices available. Use one like this: \"With Repeat After Me, Lisa say: How are you today?\"")
+    template ("These are the voices available. Use one like this: \"Lisa say: How are you today?\"")
   }
 
   render {

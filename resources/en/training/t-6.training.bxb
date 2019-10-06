@@ -1,0 +1,5 @@
+train (t-6nwudnk7g22m54iys8ukg58pl) {
+  utterance ("[g:RepeatResponse] (Amy)[v:VoiceName:Amy] say (I like you)[v:RepeatInput]")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1570379735638)
+}
