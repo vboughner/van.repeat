@@ -1,0 +1,5 @@
+train (t-d2le63vpnk4b30uiw9a22yaji) {
+  utterance ("[g:RepeatInput:prompt] (say something)[v:RepeatInput]")
+  plan (Y2BiECtLzNMrSi1ITSzRCwJTnnkFpSU4xRmBkIGBB4iZgBjIBgA=)
+  last-modified (1570460759539)
+}

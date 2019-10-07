@@ -2,7 +2,7 @@ result-view {
   match: VoiceStyle(this)
 
   message {
-    template ("These are the voices available. Use one like this: \"Lisa say: How are you today?\"")
+    template ("These are the voices. Use this way: \"Amy say I like you\"")
   }
 
   render {
@@ -26,7 +26,13 @@ result-view {
 
   conversation-drivers {
     conversation-driver {
-      template ("Lisa say: How are you today?")
+      template ("Amy say I like you")
+    }
+    conversation-driver {
+      template ("John say I like you")
+    }
+    conversation-driver {
+      template ("Julia say I like you")
     }
   }
 }

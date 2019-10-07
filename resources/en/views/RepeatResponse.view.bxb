@@ -33,14 +33,32 @@ result-view {
     conversation-driver {
       template ("Again")
     }
-    conversation-driver {
-      template ("John repeat that")
+    if (exists(voiceName) && voiceName != 'John') {
+      conversation-driver {
+        template ("John repeat that")
+      }
+    } else {
+      conversation-driver {
+        template ("Chris repeat that")
+      }
     }
-    conversation-driver {
+    if (exists(voiceName) && voiceName != 'Amy') {
+      conversation-driver {
       template ("Amy repeat that")
+      }
+    } else {
+      conversation-driver {
+        template ("Lisa repeat that")
+      }
     }
-    conversation-driver {
-      template ("Slowly repeat that")
+    if (exists(voiceName) && voiceName != 'Slow') {
+      conversation-driver {
+        template ("Slowly repeat that")
+      }
+    } else {
+      conversation-driver {
+        template ("Julia repeat that")
+      }
     }
     conversation-driver {
       template ("List voices")
