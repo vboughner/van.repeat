@@ -5,5 +5,4 @@ vocab (VoiceName) {
   "Julia" { "Julia" "Julia's" }
   "Amy" { "Amy" "Amy's"}
   "Chris" { "Chris" "Chris's" }
-  "Slow" { "Slow" "Slowly" "Doge" "Doge's" }
 }

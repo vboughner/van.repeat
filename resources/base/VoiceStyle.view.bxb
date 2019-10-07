@@ -2,23 +2,22 @@ result-view {
   match: VoiceStyle(this)
 
   message {
-    template ("These are the voices. Use this way: \"Amy say I like you\"")
+    template ("These are the available voices. Use one like this: \"Amy say I like you\"")
   }
 
   render {
     list-of (this) {
       where-each (voiceStyle) {
-        cell-card {
-          slot2 {
-            content {
-              primary {
-                template ("#{value(voiceStyle.voice)}")
-              }
-              secondary {
-                template ("#{value(voiceStyle.language)}")
-              }
-            }
-          }
+        single-line {
+                text {
+                  style (Title_S)
+                  value ("#{value(voiceStyle.voice)}")
+                }
+                spacer
+                text {
+                  style (Detail_M_Soft)
+                  value ("#{value(voiceStyle.language)}")
+                }
         }
       }
     }
@@ -32,7 +31,13 @@ result-view {
       template ("John say I like you")
     }
     conversation-driver {
+      template ("Lisa say I like you")
+    }
+    conversation-driver {
       template ("Julia say I like you")
+    }
+    conversation-driver {
+      template ("Chris say I like you")
     }
   }
 }

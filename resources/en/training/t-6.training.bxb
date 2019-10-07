@@ -1,5 +1,5 @@
 train (t-6j0smgsklqwuq0vpfgnrkzj5d) {
-  utterance ("[g:RepeatResponse] say (so many choices)[v:RepeatInput] with the (slow)[v:VoiceName:Slow] voice")
+  utterance ("[g:RepeatResponse] say (so many choices)[v:RepeatInput] with the (Chris)[v:VoiceName:Chris] voice")
   plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
   last-modified (1570458758862)
 }

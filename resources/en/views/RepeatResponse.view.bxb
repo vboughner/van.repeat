@@ -51,9 +51,9 @@ result-view {
         template ("Lisa repeat that")
       }
     }
-    if (exists(voiceName) && voiceName != 'Slow') {
+    if (exists(voiceName) && voiceName != 'Stephanie') {
       conversation-driver {
-        template ("Slowly repeat that")
+        template ("Stephanie repeat that")
       }
     } else {
       conversation-driver {

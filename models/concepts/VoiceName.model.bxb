@@ -5,5 +5,4 @@ enum (VoiceName) {
   symbol (Julia)
   symbol (Amy)
   symbol (Chris)
-  symbol (Slow)
 }

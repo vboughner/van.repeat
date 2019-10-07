@@ -4,7 +4,7 @@ hints {
     hint ( Ask Repeat After Me to have John say what a great day )
     hint ( Ask Repeat After Me to have Amy say you look fabulous )
     hint ( Ask Repeat After Me for a moment of silence )
-    hint ( Ask Repeat After Me to say so many choices with the slow voice )
+    hint ( Ask Repeat After Me to say so many choices with Amy's voice )
     hint ( Ask Repeat After Me to list the voices )
   }
 }
