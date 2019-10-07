@@ -2,7 +2,7 @@ capsule-info {
   display-name (Repeat After Me)
   developer-name (Van Boughner)
   icon-asset (images/iterative.png)
-  description ("Ask Repeat After Me to say something, and Bixby will repeat that exact phrase.")
+  description ("Ask Repeat After Me to say something, and Bixby will repeat that exact phrase. You may also ask for something to be said with a particular voice. This can be useful when setting up Bixby quick commands, to have it say something of your choice between two commands, or even include a moment of silence.")
   dispatch-name (Repeat After Me)
   search-keywords {
     keyword (repeat)

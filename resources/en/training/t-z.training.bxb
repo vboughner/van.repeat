@@ -1,0 +1,5 @@
+train (t-zec3aret20oqgf609q6f4quj2) {
+  utterance ("[g:RepeatInput:prompt] (Fred Flinstone)[v:RepeatInput]")
+  plan (Y2BiECtLzNMrSi1ITSzRCwJTnnkFpSU4xRmBkIGBB4iZgBjIBgA=)
+  last-modified (1570460064837)
+}

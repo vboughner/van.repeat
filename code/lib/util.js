@@ -10,7 +10,7 @@ util.getVoiceStyles = function() {
     { voice: ("Julia"), locale: ("en-US"), profile: ("F04"), language: ("English (US)") },
     { voice: ("Amy"), locale: ("en-GB"), profile: ("F02"), language: ("English (GB)") },
     { voice: ("Chris"), locale: ("en-GB"), profile: ("M02"), language: ("English (GB)") },
-    { voice: ("Doge"), locale: ("zh-CN"), profile: ("F02"), language: ("Slow English") },
+    { voice: ("Slow"), locale: ("zh-CN"), profile: ("F02"), language: ("Slow English") },
 
   ]
 }

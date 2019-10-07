@@ -6,7 +6,7 @@ result-view {
   }
 
   message {
-    template ("#{value(silenceLength)} seconds of silence") {
+    template ("a moment of silence") {
       speech ("#{value(this)}")
     }
   }
@@ -17,13 +17,7 @@ result-view {
 
   conversation-drivers {
     conversation-driver {
-      template ("1 second of silence")
-    }
-    conversation-driver {
-      template ("5 seconds of silence")
-    }
-    conversation-driver {
-      template ("10 seconds of silence")
+      template ("Moment of silence")
     }
   }
 }

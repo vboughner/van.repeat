@@ -1,8 +1,3 @@
-train (t-2ccpiixfi0bv8syz7yja2zdak) {
-  utterance ("[g:SilenceResponse] (5)[v:SilenceLength] seconds of silence")
-  plan (Y2BmkCpLzNMrSi1ITSzRC87MSc1LTg1KLS7IzytOZRBDkvNNzE6FyjNIYOrxSc1LL8lgYGJgBGIGIMnIAAJMEAwA)
-  last-modified (1570380991101)
-}
 train (t-2ze80ihwmh1bcwpw1wqj6ilvm) {
   utterance ("[g:RepeatResponse] say (you look fabulous today)[v:RepeatInput]")
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)

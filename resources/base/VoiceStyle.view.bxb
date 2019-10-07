@@ -26,22 +26,7 @@ result-view {
 
   conversation-drivers {
     conversation-driver {
-      template ("Stephanie repeat me")
-    }
-    conversation-driver {
-      template ("John repeat me")
-    }
-    conversation-driver {
-      template ("Lisa repeat me")
-    }
-    conversation-driver {
-      template ("Julia repeat me")
-    }
-    conversation-driver {
-      template ("Amy repeat me")
-    }
-    conversation-driver {
-      template ("Chris repeat me")
+      template ("Lisa say: How are you today?")
     }
   }
 }

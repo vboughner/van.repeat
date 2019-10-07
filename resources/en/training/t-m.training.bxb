@@ -8,3 +8,8 @@ train (t-mlo5he8j56owm9o4fjf1amddb) {
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1568480004189)
 }
+train (t-mxpuj7wbwiaso5hsay6fww9fg) {
+  utterance ([g:MakeSilence] silence)
+  plan (Y2BikCpLzNMrSi1ITSzRC87MSc1LTg1KLS7IzytOZRBDkvNNzE6FyjMwAiEDFANJAA==)
+  last-modified (1570398709647)
+}

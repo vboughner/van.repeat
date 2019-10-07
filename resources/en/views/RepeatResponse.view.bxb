@@ -34,22 +34,16 @@ result-view {
       template ("Again")
     }
     conversation-driver {
-      template ("Stephanie repeat that")
-    }
-    conversation-driver {
       template ("John repeat that")
-    }
-    conversation-driver {
-      template ("Lisa repeat that")
-    }
-    conversation-driver {
-      template ("Julia repeat that")
     }
     conversation-driver {
       template ("Amy repeat that")
     }
     conversation-driver {
-      template ("Chris repeat that")
+      template ("Slowly repeat that")
+    }
+    conversation-driver {
+      template ("List voices")
     }
   }
 }

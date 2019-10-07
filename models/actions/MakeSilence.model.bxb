@@ -4,7 +4,13 @@ action (MakeSilence) {
   collect {
     input (silenceLength) {
       type (SilenceLength)
-      min (Required) max (One)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: SilenceLength
+          value: SilenceLength (1)
+        }
+      }
     }
   }
   output (SilenceResponse)
