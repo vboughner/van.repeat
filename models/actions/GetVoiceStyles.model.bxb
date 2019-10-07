@@ -1,0 +1,7 @@
+action (GetVoiceStyles) {
+  type (Search)
+  description (gets a list of available voice styles)
+  collect {
+  }
+  output (VoiceStyle)
+}

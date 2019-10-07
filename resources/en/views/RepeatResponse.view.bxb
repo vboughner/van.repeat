@@ -1,18 +1,67 @@
 result-view {
-  match: RepeatResponse (this) {
+  match: RepeatResponse(this) {
+    from-output: RepeatAction(action) {
+      from-input: VoiceName(voiceName)
+      from-input: RepeatInput(repeatInput)
+    }
   }
 
   message {
-    template ("#{value(this)}")
+    template ("#{value(this.displayText)}") {
+      speech ("#{value(this.speechText)}")
+    }
   }
 
   render {
-    nothing
+    if (size(voiceName) > 0) {
+      layout {
+        section {
+          content {
+            single-line {
+              text {
+                style (Detail_M_Soft)
+                value ("voice: #{value(voiceName)}")
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   conversation-drivers {
     conversation-driver {
       template ("Again")
+    }
+    if (exists(voiceName) && voiceName != 'John') {
+      conversation-driver {
+        template ("John repeat that")
+      }
+    } else {
+      conversation-driver {
+        template ("Chris repeat that")
+      }
+    }
+    if (exists(voiceName) && voiceName != 'Amy') {
+      conversation-driver {
+      template ("Amy repeat that")
+      }
+    } else {
+      conversation-driver {
+        template ("Lisa repeat that")
+      }
+    }
+    if (exists(voiceName) && voiceName != 'Stephanie') {
+      conversation-driver {
+        template ("Stephanie repeat that")
+      }
+    } else {
+      conversation-driver {
+        template ("Julia repeat that")
+      }
+    }
+    conversation-driver {
+      template ("List voices")
     }
   }
 }

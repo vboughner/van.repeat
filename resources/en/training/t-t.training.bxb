@@ -1,3 +1,8 @@
+train (t-tbm5k13gfgj2utnc07i23n9ne) {
+  utterance ("[g:RepeatResponse] (Lisa)[v:VoiceName:Lisa] say (word)[v:RepeatInput]")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1570379706315)
+}
 train (t-tpqbiscs7s061wcmkf1pcs8go) {
   utterance ([g:RepeatResponse:continue] again)
   plan (Y2BkkCxLzNMrSi1ITSzRCwJTQanFBfl5xakMIMAIIgA=)

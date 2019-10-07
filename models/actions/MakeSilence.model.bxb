@@ -1,0 +1,17 @@
+action (MakeSilence) {
+  type (Calculation)
+  description (provide a certain number of seconds of silence)
+  collect {
+    input (silenceLength) {
+      type (SilenceLength)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: SilenceLength
+          value: SilenceLength (1)
+        }
+      }
+    }
+  }
+  output (SilenceResponse)
+}

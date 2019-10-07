@@ -1,0 +1,3 @@
+integer (SilenceLength) {
+  description (how many seconds of silence)
+}

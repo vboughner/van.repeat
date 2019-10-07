@@ -1,0 +1,10 @@
+train (t-p8byp0x5g981qrxh730guf9kl) {
+  utterance ([g:SilenceResponse] a moment of silence)
+  plan (Y2BkkCpLzNMrSi1ITSzRC87MSc1LTg1KLS7IzytOZQABRhABAA==)
+  last-modified (1570398579825)
+}
+train (t-pbvt3p6ro0ij4kn3xt57yw04t) {
+  utterance ("[g:RepeatResponse:continue] repeat that in (John's)[v:VoiceName:John] voice")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIAQwATFQDAA=)
+  last-modified (1570380215596)
+}

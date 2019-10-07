@@ -1,0 +1,5 @@
+train (t-k8gohpvilei70i05of3my14cf) {
+  utterance ("[g:RepeatResponse] say (say something here)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1570458808385)
+}

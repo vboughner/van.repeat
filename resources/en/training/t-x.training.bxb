@@ -1,0 +1,5 @@
+train (t-x1sxug599zit2hketkckrbdss) {
+  utterance ("[g:RepeatResponse] say (something)[v:RepeatInput] with the (Lisa)[v:VoiceName:Lisa] voice")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1570464307414)
+}
