@@ -3,3 +3,7 @@ train (t-wn7d4k7teo01sxp02naerpvrh) {
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1568480004416)
 }
+train (t-wzi0garrnqtlp3kw900xo9rl6) {
+  utterance ("[g:RepeatResponse] with (Amy's)[v:VoiceName:Amy] voice say I am your friend")
+  last-modified (1570487091514)
+}
