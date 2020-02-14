@@ -3,3 +3,8 @@ train (t-r46q28b3pfo3keeybkxpyi7xk) {
   plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
   last-modified (1570399020367)
 }
+train (t-rbk52hal9racgl22ibc2p8sx3) {
+  utterance ("[g:RepeatResponse] say (Julia is a friend of mine)[v:RepeatInput] in (Jon's)[v:VoiceName:John] voice")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1581701213054)
+}

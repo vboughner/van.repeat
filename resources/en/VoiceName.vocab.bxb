@@ -1,6 +1,6 @@
 vocab (VoiceName) {
   "Stephanie" { "Stephanie" "Stephanie's" }
-  "John" { "John" "John's" }
+  "John" { "John" "John's" "Jon" "Jon's" }
   "Lisa" { "Lisa" "Lisa's" }
   "Julia" { "Julia" "Julia's" }
   "Amy" { "Amy" "Amy's"}

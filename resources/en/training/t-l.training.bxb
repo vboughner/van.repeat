@@ -1,3 +1,8 @@
+train (t-ljs55ta7kan8zdnr7ubuz304a) {
+  utterance ("[g:RepeatResponse] say (a moment of silence)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1581702359012)
+}
 train (t-llks43j4synnvmarzws3me65z) {
   utterance ([g:SilenceResponse] give me a moment of silence)
   plan (Y2BkkCpLzNMrSi1ITSzRC87MSc1LTg1KLS7IzytOZQABRhABAA==)

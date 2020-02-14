@@ -1,0 +1,5 @@
+train (t-5p0xpah08skt3kwfv1lntj0vb) {
+  utterance ("[g:RepeatResponse:continue] (this is a fun thing to do)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1581702081732)
+}

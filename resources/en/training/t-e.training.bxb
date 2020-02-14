@@ -1,0 +1,5 @@
+train (t-e14q7pgkwagqed8m8r1y5d5fy) {
+  utterance ("[g:RepeatResponse] say (John likes Amy)[v:RepeatInput] in (Julia’s)[v:VoiceName:Julia] voice")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1581701058233)
+}

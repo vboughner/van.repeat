@@ -8,3 +8,8 @@ train (t-inbzvz19axvzprhw09ez7esos) {
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1568480004282)
 }
+train (t-isk8bsl8h91ho4cgvb82l3aqo) {
+  utterance ("[g:RepeatResponse] say (what voices can I use)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1581702525298)
+}

@@ -3,3 +3,8 @@ train (t-k8gohpvilei70i05of3my14cf) {
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1570458808385)
 }
+train (t-kmldq89rz98k0zl2jwezblyp4) {
+  utterance ("[g:RepeatResponse:continue] (one)[v:RepeatInput]")
+  plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1581701935409)
+}
