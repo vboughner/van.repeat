@@ -3,6 +3,11 @@ train (t-a0htm2i9apcfyaro00z6qtmzx) {
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1568489700898)
 }
+train (t-ad1h8jk1yx519io2oa57f90by) {
+  utterance ("[g:RepeatResponse] say (John says something in John's voice in John's voice)[v:RepeatInput] in (John's)[v:VoiceName:John] voice")
+  plan (Y2BhkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDCJI4mH5mcmpfom5qQzMDIwMTECSAUiDIASA+GBRAA==)
+  last-modified (1582158289995)
+}
 train (t-af0681cwp8cn9r1ryc2plnnwb) {
   utterance ("[g:RepeatResponse] say (what voices are there)[v:RepeatInput]")
   plan (Y2BmkCxLzNMrSi1ITSzRCwJTQanFBfl5xakM4hhSjsklmfl5DGIYEp55BaUlDEwMjEDMACQZGUCACYIB)
