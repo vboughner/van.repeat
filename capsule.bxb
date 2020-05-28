@@ -1,12 +1,12 @@
 capsule {
   id (example.repeat)
-  version (1.2.0)
+  version (1.2.1)
   format (3)
   targets {
     target (bixby-mobile-en)
     target (bixby-watch-en)
   }
-  runtime-version (5)
+  runtime-version (7)
   store-countries {
     all
   }
