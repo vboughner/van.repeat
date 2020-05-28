@@ -1,5 +1,5 @@
 result-view {
-  match: VoiceStyle(this)
+  match: VoiceStyle (this)
 
   message {
     template ("These are the available voices. Use one like this: \"Amy say I like you\"")
@@ -8,16 +8,20 @@ result-view {
   render {
     list-of (this) {
       where-each (voiceStyle) {
-        single-line {
-                text {
-                  style (Title_S)
-                  value ("#{value(voiceStyle.voice)}")
-                }
-                spacer
-                text {
-                  style (Detail_M_Soft)
-                  value ("#{value(voiceStyle.language)}")
-                }
+        compound-card {
+          content {
+            single-line {
+              text {
+                style (Title_S)
+                value ("#{value(voiceStyle.voice)}")
+              }
+              spacer
+              text {
+                style (Detail_M_Soft)
+                value ("#{value(voiceStyle.language)}")
+              }
+            }
+          }
         }
       }
     }
